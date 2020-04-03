@@ -1,0 +1,17 @@
+com\demo\pojo\MappedStatement.class
+com\demo\config\BoundSql.class
+com\demo\util\GenericTokenParser.class
+com\demo\util\ParameterMappingTokenHandler.class
+com\demo\sqlsession\DefaultSqlSession.class
+com\demo\sqlsession\SqlSessionFactory.class
+com\demo\sqlsession\SqlSessionFactoryBuilder.class
+com\demo\sqlsession\Executor.class
+com\demo\util\TokenHandler.class
+com\demo\config\XmlMapperBuilder.class
+com\demo\config\XmlConfigBuilder.class
+com\demo\sqlsession\SqlSession.class
+com\demo\sqlsession\DefaultSqlSessionFactory.class
+com\demo\sqlsession\SimpleExecutor.class
+com\demo\io\Resources.class
+com\demo\pojo\Configuration.class
+com\demo\util\ParameterMapping.class
