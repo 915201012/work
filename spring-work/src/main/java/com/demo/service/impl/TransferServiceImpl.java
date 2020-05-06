@@ -8,7 +8,7 @@ import com.demo.pojo.Account;
 import com.demo.service.TransferService;
 
 @Service("transferService")
-@Transactional(value = true)
+@Transactional(true)
 public class TransferServiceImpl implements TransferService {
 
     @Autowired
@@ -23,7 +23,7 @@ public class TransferServiceImpl implements TransferService {
         from.setMoney(from.getMoney() - money);
         to.setMoney(to.getMoney() + money);
         accountDao.updateAccount(from);
-//        int i = 1 / 0;
+        int i = 1 / 0;
         accountDao.updateAccount(to);
 
     }
